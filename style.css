@@ -28,8 +28,49 @@ html { box-sizing: border-box; }
 	#303339		tmavé pozadí patičky
 */
 
-
 body {
-	margin: 0;
+	margin: auto;
+	font-family: "Lora", serif;
+	font-optical-sizing: auto;
+	font-style: normal;
+	width:1100px;
+}
+header, main, .welcome, .top, .approach{
+	max-width: 1100px;
+}
+
+header{
+	background-image: url(images/cupcake.jpg);
+	background-size: cover;
+	padding: 50px;
+	padding-right: 40%;
+	color: white;
+	font-size: 24px;
+	font-style: italic;
+}
+
+h1, h2, h3{
+	font-family: "Playfair Display", serif;
+ 	font-optical-sizing: auto;
+  	font-weight: bold;
+  	font-style: normal;
+	font-size: 52px;
+}
+
+.top{
+	display: flex;
+	justify-content: space-around;
+	padding: 30px 0 30px 0;
+}
+
+nav a{
+ 	text-decoration: none;
+ 	padding: 10px 15px;
+	color: black;
+}
+
+#logo{
+	width: 150px;
+    height: auto;
 }
 
