@@ -29,20 +29,14 @@ html { box-sizing: border-box; }
 */
 
 body {
-	margin: auto;
 	font-family: "Lora", serif;
 	font-optical-sizing: auto;
 	font-style: normal;
-	width:1100px;
 }
-/* header, main, .welcome, .top, .approach{
-	max-width: 1100px;
-} */
 
 header{
 	background-image: url(images/cupcake.jpg);
 	background-size: cover;
-	padding: 50px;
 	padding-right: 40%;
 	color: white;
 	font-size: 24px;
@@ -57,7 +51,16 @@ h1, h2, h3{
 	font-size: 52px;
 }
 
-.top{
+h1, p{
+	width: 1100px;
+	margin: auto;
+}
+
+header, main, .approach, .welcome {
+	padding: 80px 0 80px 0;
+}
+
+.menu{
 	display: flex;
 	justify-content: space-around;
 	padding: 30px 0 30px 0;
@@ -74,8 +77,5 @@ nav a{
     height: auto;
 }
 
-/* main{
-	display: flex;
-} */
 
 
