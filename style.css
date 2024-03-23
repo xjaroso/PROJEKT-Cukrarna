@@ -32,16 +32,23 @@ body {
 	font-family: "Lora", serif;
 	font-optical-sizing: auto;
 	font-style: normal;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center; 
+	padding: 0;
+	margin: 0;
 }
 
 header{
 	background-image: url(images/cupcake.jpg);
 	background-size: cover;
-	padding-right: 40%;
+	align-items: flex-start;
 	color: white;
 	font-size: 24px;
 	font-style: italic;
 }
+
 
 h1, h2, h3{
 	font-family: "Playfair Display", serif;
@@ -51,10 +58,6 @@ h1, h2, h3{
 	font-size: 52px;
 }
 
-h1, p{
-	width: 1100px;
-	margin: auto;
-}
 
 header, main, .approach, .welcome {
 	padding: 80px 0 80px 0;
@@ -62,8 +65,12 @@ header, main, .approach, .welcome {
 
 .menu{
 	display: flex;
-	justify-content: space-around;
 	padding: 30px 0 30px 0;
+}
+
+#logo, nav{
+	flex-direction: row;
+	justify-content: space-between;
 }
 
 nav a{
@@ -77,5 +84,28 @@ nav a{
     height: auto;
 }
 
+main, main img {
+	display: flex;
+	align-items: center;
+	max-width: 80%;
+}
 
+h3{
+	font-family: "Playfair Display", serif;
+ 	font-optical-sizing: auto;
+  	font-weight: bold;
+  	font-style: normal;
+	font-size: 18px;
+}
 
+.prvni, .druhy, .treti, .ctvrty{
+	flex-direction: row;
+	justify-content: space-around;
+	background-color: white;
+	border: solid 2px black;
+}
+
+.approach{
+	flex-direction: row;
+	justify-content: space-around;
+}
